@@ -1,1 +1,0 @@
-exports.ROUTE_HOME = '/';
