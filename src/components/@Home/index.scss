@@ -1,9 +1,58 @@
 @import '../../styles/base';
 
 .home {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.title {
+  flex: 0 0;
+  margin: 10px 0;
+  width: 120px;
+  text-align: center;
+
+  @media (min-width: $breakpoint-lg) {
+    width: 100%;
+  }
+}
+
+.menus {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  flex-wrap: wrap;
+
+  .menu {
+    flex: 1 0;
+    flex-basis: 120px;
+    text-align: center;
+    padding: 7px;
+
+    div {
+      font-family: $accent-font;
+      font-size: $font-size-xl;
+    }
+  }
+
+  .menu:nth-child(1) { background-color: $light-blue; }
+  .menu:nth-child(2) { background-color: $light-orange; }
+  .menu:nth-child(3) { background-color: $light-red; }
+  .menu:nth-child(4) { background-color: $light-yellow; }
+  .menu:nth-child(5) { background-color: $light-purple; }
+}
+
+.carousel-container {
+  width: 100%;
+  flex: 1 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }

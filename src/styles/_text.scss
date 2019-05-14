@@ -1,4 +1,8 @@
-@import './variables/colors';
+@import './base';
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $accent-font;
+}
 
 .text-left {
   text-align: left !important;
@@ -12,7 +16,7 @@
   text-align: center !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $breakpoint-sm) {
   .text-sm-left {
     text-align: left !important;
   }
@@ -24,7 +28,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .text-md-left {
     text-align: left !important;
   }
@@ -36,7 +40,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-lg) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -48,7 +52,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $breakpoint-xl) {
   .text-xl-left {
     text-align: left !important;
   }
@@ -112,20 +116,20 @@
   color: $white !important;
 }
 
-.text-xsmall {
-  font-size: $font-size-xsmall;
+.text-xs {
+  font-size: $font-size-xs;
 }
 
-.text-small {
-  font-size: $font-size-small;
+.text-sm {
+  font-size: $font-size-sm;
 }
 
-.text-large {
-  font-size: $font-size-large;
+.text-lg {
+  font-size: $font-size-lg;
 }
 
-.text-xlarge {
-  font-size: $font-size-xlarge;
+.text-xl {
+  font-size: $font-size-xl;
 }
 
 .text-hide {

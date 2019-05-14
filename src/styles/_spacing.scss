@@ -314,7 +314,7 @@
   margin-left: auto !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $breakpoint-sm) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -564,7 +564,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $breakpoint-md) {
   .m-md-0 {
     margin: 0 !important;
   }
@@ -814,7 +814,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $breakpoint-lg) {
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -1064,7 +1064,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $breakpoint-xl) {
   .m-xl-0 {
     margin: 0 !important;
   }

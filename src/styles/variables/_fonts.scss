@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,500,600,900');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500,600,900');
+// @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+// @import url('https://fonts.googleapis.com/css?family=Dosis:100,300,500,600,900');
+// move to head in index.html to load faster
 
-$primary-font: 'Raleway', sans-serif;
-$accent-font: 'Roboto', sans-serif;
+$primary-font: 'Dosis', 'Raleway', sans-serif;
+$accent-font: 'Indie Flower', cursive;
 $font-size: 14px;
-$font-size-xlarge: 20px;
-$font-size-large: 18px;
-$font-size-small: 12px;
-$font-size-xsmall: 10px;
+$font-size-xl: 20px;
+$font-size-lg: 18px;
+$font-size-md: 14px;
+$font-size-sm: 12px;
+$font-size-xs: 10px;
