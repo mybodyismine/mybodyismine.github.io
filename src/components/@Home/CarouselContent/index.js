@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import randomBackground1 from 'assets/images/bg-01.png';
 import randomBackground2 from 'assets/images/bg-02.jpg';
-import randomBackground3 from 'assets/images/bg-03.jpg';
+import randomBackground3 from 'assets/images/bg-03.png';
 import './index.scss';
 
 class CarouselCard extends Component {
