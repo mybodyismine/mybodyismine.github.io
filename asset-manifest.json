@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.12695c34.chunk.css",
-    "main.js": "/static/js/main.7e3f9e1a.chunk.js",
-    "main.js.map": "/static/js/main.7e3f9e1a.chunk.js.map",
+    "main.css": "/static/css/main.053745e8.chunk.css",
+    "main.js": "/static/js/main.c0eb546f.chunk.js",
+    "main.js.map": "/static/js/main.c0eb546f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.0df9f638.chunk.js": "/static/js/2.0df9f638.chunk.js",
-    "static/js/2.0df9f638.chunk.js.map": "/static/js/2.0df9f638.chunk.js.map",
+    "static/js/2.5731b985.chunk.js": "/static/js/2.5731b985.chunk.js",
+    "static/js/2.5731b985.chunk.js.map": "/static/js/2.5731b985.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98f6ac79b10f1aec7a4c23675db06fca.js": "/precache-manifest.98f6ac79b10f1aec7a4c23675db06fca.js",
+    "precache-manifest.bdae35fe03374ab5609e72a0c49c7125.js": "/precache-manifest.bdae35fe03374ab5609e72a0c49c7125.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.12695c34.chunk.css.map": "/static/css/main.12695c34.chunk.css.map",
+    "static/css/main.053745e8.chunk.css.map": "/static/css/main.053745e8.chunk.css.map",
     "static/media/bg-01.png": "/static/media/bg-01.7facd209.png",
     "static/media/bg-02.jpg": "/static/media/bg-02.8a3a8a16.jpg",
     "static/media/bg-03.png": "/static/media/bg-03.bd410517.png",
-    "static/media/logo-komnas-perempuan.png": "/static/media/logo-komnas-perempuan.7b5b489f.png"
+    "static/media/logo-komnas-perempuan.png": "/static/media/logo-komnas-perempuan.7b5b489f.png",
+    "static/media/tisa.jpg": "/static/media/tisa.fc8ce5c7.jpg"
   }
 }
