@@ -84,7 +84,7 @@ export default class Carousel extends Component {
           <CarouselRightArrow onClick={e => this.goToNextSlide(e)} />
         </div>
 
-        <dv className="carousel__indicators">
+        <div className="carousel__indicators">
           {this.props.slides.map((slide, index) =>
             <CarouselIndicator
               key={index}
@@ -93,7 +93,7 @@ export default class Carousel extends Component {
               onClick={e => this.goToSlide(index)}
             />
           )}
-        </dv>
+        </div>
       </div>
     );
   }

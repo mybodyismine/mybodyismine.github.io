@@ -1,0 +1,18 @@
+@import '../../../styles/base';
+
+.contact-fab {
+  .circle {
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    background-color: $green;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    @extend %has-shadow;
+  }
+}

@@ -5,7 +5,7 @@
   flex-direction: column;
 
   .page {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,6 +84,7 @@
       height: 200px;
       background-color:$light-brown;
       color: white;
+      @extend %has-shadow;
 
       span {
         font-family: $accent-font;
@@ -115,11 +116,15 @@
     }
 
     .question {
-      max-width: 40%;
       margin: 10px;
       background-color: $light-green;
       transition: transform .75s ease;
       cursor: pointer;
+      @extend %has-shadow;
+
+      @media (min-width: $breakpoint-lg) {
+        max-width: 40%;
+      }
 
       .question-header, .question-body {
         padding: 10px;
@@ -151,6 +156,10 @@
     h3 {
       margin-top: 20px;
       margin-bottom: 20px;
+    }
+
+    .logo {
+      max-width: 100%;
     }
   }
 }

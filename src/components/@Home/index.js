@@ -57,7 +57,7 @@ export default class Home extends PageComponent {
         </div>
         <div className="footer">
           <div className="container footer-content">
-            <img src={logoKomnasPerempuan} alt="komnas perempuan" />
+            <img className="logo" src={logoKomnasPerempuan} alt="komnas perempuan" />
             <h3>Didukung oleh:</h3>
           </div>
         </div>
