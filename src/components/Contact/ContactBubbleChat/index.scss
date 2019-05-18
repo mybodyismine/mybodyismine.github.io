@@ -1,0 +1,25 @@
+@import '../../../styles/base';
+
+.contact-bubble-chat {
+  margin: 20px;
+  background-color: $light-green;
+  border-radius: 30px;
+  width: 80vw;
+  min-height: 70vh;
+  @extend %has-shadow;
+
+  opacity: 0;
+  transform: translateX(80vw);
+  transition: all 1s ease;
+
+  @media (min-width: $breakpoint-lg) {
+    width: 40vw;
+  }
+
+  &.active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease;
+  }
+}
+

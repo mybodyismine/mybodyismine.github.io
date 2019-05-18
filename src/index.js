@@ -9,10 +9,10 @@ import 'styles/index.scss';
 
 ReactDOM.render(
 	<div>
-		<Contact />
 		<BrowserRouter>
 			<Router />
 		</BrowserRouter>
+		<Contact />
 	</div>,
 	document.getElementById('app'));
 
