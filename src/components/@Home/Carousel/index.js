@@ -9,6 +9,7 @@ export default class Carousel extends Component {
   constructor(props) {
     super(props);
 
+    this.loopSlide = this.loopSlide.bind(this);
     this.goToSlide = this.goToSlide.bind(this);
     this.goToPrevSlide = this.goToPrevSlide.bind(this);
     this.goToNextSlide = this.goToNextSlide.bind(this);
@@ -16,6 +17,13 @@ export default class Carousel extends Component {
     this.state = {
       activeIndex: 0
     };
+
+    this.loopSlide();
+  }
+
+  loopSlide() {
+    this.goToNextSlide();
+    setTimeout(this.loopSlide, 5000);
   }
 
   goToSlide(index) {
@@ -25,7 +33,7 @@ export default class Carousel extends Component {
   }
 
   goToPrevSlide(e) {
-    e.preventDefault();
+    if (e) e.preventDefault();
 
     let index = this.state.activeIndex;
     let { slides } = this.props;
@@ -43,7 +51,7 @@ export default class Carousel extends Component {
   }
 
   goToNextSlide(e) {
-    e.preventDefault();
+    if (e) e.preventDefault();
 
     let index = this.state.activeIndex;
     let { slides } = this.props;
