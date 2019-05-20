@@ -1,8 +1,7 @@
 .contact {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  > * {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  }
 }
