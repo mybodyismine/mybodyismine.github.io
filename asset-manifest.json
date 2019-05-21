@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.51ac3d0e.chunk.css",
-    "main.js": "/static/js/main.6b73780a.chunk.js",
-    "main.js.map": "/static/js/main.6b73780a.chunk.js.map",
+    "main.css": "/static/css/main.78e4d29d.chunk.css",
+    "main.js": "/static/js/main.886923b9.chunk.js",
+    "main.js.map": "/static/js/main.886923b9.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.5be955ef.chunk.js": "/static/js/2.5be955ef.chunk.js",
     "static/js/2.5be955ef.chunk.js.map": "/static/js/2.5be955ef.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f5658038ce68822bbd53b040ff6ae836.js": "/precache-manifest.f5658038ce68822bbd53b040ff6ae836.js",
+    "precache-manifest.5f34c3fe8eba26cd2a7fa2b6ddabbe5d.js": "/precache-manifest.5f34c3fe8eba26cd2a7fa2b6ddabbe5d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.51ac3d0e.chunk.css.map": "/static/css/main.51ac3d0e.chunk.css.map",
+    "static/css/main.78e4d29d.chunk.css.map": "/static/css/main.78e4d29d.chunk.css.map",
     "static/media/apakah-aku-normal.jpg": "/static/media/apakah-aku-normal.906f57be.jpg",
     "static/media/logo-indonesia-untuk-kemanusiaan.png": "/static/media/logo-indonesia-untuk-kemanusiaan.2d264d2c.png",
     "static/media/logo-kemdikbud.png": "/static/media/logo-kemdikbud.5b8d22e5.png",
@@ -22,7 +22,6 @@
     "static/media/logo-lrc-kjham.png": "/static/media/logo-lrc-kjham.415fe3cb.png",
     "static/media/logo.png": "/static/media/logo.a26b4b25.png",
     "static/media/mabuk-bukan-berarti.jpg": "/static/media/mabuk-bukan-berarti.4fc3c191.jpg",
-    "static/media/menolong-teman-keluar.jpg": "/static/media/menolong-teman-keluar.d71a79dd.jpg",
-    "static/media/tisa.jpg": "/static/media/tisa.fc8ce5c7.jpg"
+    "static/media/menolong-teman-keluar.jpg": "/static/media/menolong-teman-keluar.d71a79dd.jpg"
   }
 }
