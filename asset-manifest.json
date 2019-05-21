@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.35999598.chunk.css",
-    "main.js": "/static/js/main.96fb43c2.chunk.js",
-    "main.js.map": "/static/js/main.96fb43c2.chunk.js.map",
+    "main.css": "/static/css/main.01018ada.chunk.css",
+    "main.js": "/static/js/main.9c42d680.chunk.js",
+    "main.js.map": "/static/js/main.9c42d680.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.5731b985.chunk.js": "/static/js/2.5731b985.chunk.js",
-    "static/js/2.5731b985.chunk.js.map": "/static/js/2.5731b985.chunk.js.map",
+    "static/js/2.a16e7805.chunk.js": "/static/js/2.a16e7805.chunk.js",
+    "static/js/2.a16e7805.chunk.js.map": "/static/js/2.a16e7805.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.46e0f2e16792e01d140dd76c03ba19ca.js": "/precache-manifest.46e0f2e16792e01d140dd76c03ba19ca.js",
+    "precache-manifest.d7c691d279d2457ed557540cdae945d3.js": "/precache-manifest.d7c691d279d2457ed557540cdae945d3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.35999598.chunk.css.map": "/static/css/main.35999598.chunk.css.map",
-    "static/media/bg-01.png": "/static/media/bg-01.7facd209.png",
-    "static/media/bg-02.jpg": "/static/media/bg-02.8a3a8a16.jpg",
-    "static/media/bg-03.png": "/static/media/bg-03.bd410517.png",
+    "static/css/main.01018ada.chunk.css.map": "/static/css/main.01018ada.chunk.css.map",
+    "static/media/apakah-aku-normal.jpg": "/static/media/apakah-aku-normal.906f57be.jpg",
     "static/media/logo-komnas-perempuan.png": "/static/media/logo-komnas-perempuan.7b5b489f.png",
+    "static/media/logo.png": "/static/media/logo.a26b4b25.png",
+    "static/media/mabuk-bukan-berarti.jpg": "/static/media/mabuk-bukan-berarti.4fc3c191.jpg",
+    "static/media/menolong-teman-keluar.jpg": "/static/media/menolong-teman-keluar.d71a79dd.jpg",
     "static/media/tisa.jpg": "/static/media/tisa.fc8ce5c7.jpg"
   }
 }
