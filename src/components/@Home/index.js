@@ -1,23 +1,26 @@
 import React from 'react';
 import PageComponent from 'components/PageComponent';
 import Navbar from 'components/Navbar';
+import Footer from 'components/Footer';
 import Carousel from './Carousel';
 import carouselContent from './CarouselContent';
-import logoKomnasPerempuan from 'assets/images/logo-komnas-perempuan.png';
 import './index.scss';
 
 const questions = [
   {
-    title: 'Pacarku berkata aku tidak menyayanginya apabila aku tidak mau berhubungan seks dengannya. Apa yang harus aku lakukan?',
-    text: 'Rasa cinta tidak diukur hanya karena bla bla bla ... baca lebih lanjut',
+    title: 'Pacarku memaksaku berhubungan seksual sebagai tanda sayang kepadanya, padahal aku tidak mau karena aku tau itu salah, tetapi aku takut pacarku meninggalkanku. Aku harus bagaimana?',
   },
   {
-    title: 'Pacarku berkata aku tidak menyayanginya apabila aku tidak mau berhubungan seks dengannya. Apa yang harus aku lakukan?',
-    text: 'Rasa cinta tidak diukur hanya karena bla bla bla ... baca lebih lanjut',
+    title: 'Bagaimana cara aku bisa menghindari kehamilan tidak diinginkan?',
   },
   {
-    title: 'Pacarku berkata aku tidak menyayanginya apabila aku tidak mau berhubungan seks dengannya. Apa yang harus aku lakukan?',
-    text: 'Rasa cinta tidak diukur hanya karena bla bla bla ... baca lebih lanjut',
+    title: 'Apa itu Penyakit Menular Seksual dan bagaimana penularannya?',
+  },
+  {
+    title: 'Aku merasa tubuhku tidak sama seperti perempuan lainnya. Aku masih memakai singlet sementara teman-temanku sudah memakai BH. Apakah aku normal?',
+  },
+  {
+    title: 'Apa hukuman bagi pelaku kekerasan seksual?',
   },
 ];
 
@@ -33,25 +36,28 @@ export default class Home extends PageComponent {
         </div>
         <div className="page second">
           <div className="join">
-            <div className="circle">
-              <span>Kamu penyintas kekerasan seksual? Ikuti komunitas penyintas kami!</span>
+            <h1>Hotline</h1>
+            <p>
+              Apabila kamu adalah korban kekerasan seksual, jangan ragu-ragu untuk mencari pertolongan, karena kami semua ingin menolongmu!
+            </p>
+            <p>
+              Kirim e-mail pelaporan dengan berisikan nama, no telepon, alamat, dan kekerasan yang kamu alami,
+              atau hubungi kami langsung di "999", atau SMS/WA ke 081234567890. Kami hadir untukmu.
+            </p>
+          </div>
+          <div className="faq">
+            <h2>Punya Pertanyaan?</h2>
+            <div className="questions">
+              {questions.map((question, index) => (
+                <div className="question">
+                  {question.title}
+                </div>
+              ))}
             </div>
-          </div>
-          <div className="questions">
-            {questions.map((question, index) => (
-              <div className="question">
-                <div className="question-header">{question.title}</div>
-                <div className="question-body">{question.text}</div>
-              </div>
-            ))}
+            <p>Apabila kamu ingin bertanya seputar seksualitas, jangan ragu menggunakan fasilitas konsultasi online di pojok kanan bawah! Konselor kami akan menjawab pertanyaan kamu.</p>
           </div>
         </div>
-        <div className="footer">
-          <div className="container footer-content">
-            <img className="logo" src={logoKomnasPerempuan} alt="komnas perempuan" />
-            <h3>Didukung oleh:</h3>
-          </div>
-        </div>
+        <Footer />
       </div>
     );
   }

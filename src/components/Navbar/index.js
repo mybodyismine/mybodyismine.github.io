@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from 'assets/images/logo.png';
+import { ROUTE_HOME, ROUTE_ARTICLES } from 'routes';
 import './index.scss';
 
-export default class Home extends Component {
+export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <h1 className="title">Tubuhku, Milikku</h1>
-        <p className="text-sm font-italic">Tempatmu bertanya seputar seksualitas</p>
+        <Link to={ROUTE_HOME}>
+          <div className="title">
+            <img src={logo} alt="Tubuhku, Milikku" />
+          </div>
+        </Link>
         <div className="menus">
-          <Link className="menu"><div>Artikel</div></Link>
-          <Link className="menu"><div>Video</div></Link>
-          <Link className="menu"><div>Pertanyaan</div></Link>
-          <Link className="menu"><div>Penyintas</div></Link>
-          <Link className="menu"><div>Tentang Kami</div></Link>
+          <Link className="menu" to={ROUTE_ARTICLES}>Artikel</Link>
+          <Link className="menu">Video</Link>
+          <Link className="menu">Pertanyaan</Link>
+          <Link className="menu">Penyintas</Link>
+          <Link className="menu">Tentang Kami</Link>
         </div>
       </div>
     );

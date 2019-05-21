@@ -1,6 +1,9 @@
 .carousel__arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   flex: 0 0;
-  display: block;
   color: #111;
   cursor: pointer;
   opacity: .75;

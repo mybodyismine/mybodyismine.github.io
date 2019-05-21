@@ -22,6 +22,7 @@
 
 .second.page {
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   @media (min-width: $breakpoint-md) {
@@ -30,98 +31,66 @@
 
   .join {
     flex: 1 1;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
+    align-self: stretch;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    background-color:$light-brown;
+    color: white;
+    @extend %has-shadow;
 
-    .circle {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin: 20px;
-      padding: 20px;
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      background-color:$light-brown;
-      color: white;
-      @extend %has-shadow;
-
-      span {
-        font-family: $accent-font;
-        font-size: $font-size-md;
-        font-weight: 900;
-      }
-
-      @media (min-width: $breakpoint-md) {
-        width: 350px;
-        height: 350px;
-
-        span {
-          font-size: $font-size-xl;
-        }
-      }
+    h1 {
+      font-size: 40px;
     }
   }
 
-  .questions {
+  .faq {
     flex: 2 2;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 20px;
+    align-items: center;
+    text-align: center;
 
-    @media (min-width: $breakpoint-lg) {
-      flex-direction: row;
+    h2, p {
+      margin: 1em 0;
     }
 
-    .question {
-      margin: 10px;
-      background-color: $light-green;
-      transition: transform .75s ease;
-      cursor: pointer;
-      @extend %has-shadow;
+    .questions {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
 
-      @media (min-width: $breakpoint-lg) {
-        max-width: 40%;
-      }
-
-      .question-header, .question-body {
+      .question {
+        margin: 10px;
         padding: 10px;
-      }
+        max-width: 40%;
 
-      .question-header {
         background-color: $green;
+        font-size: .7em;
         font-weight: 700;
         text-align: center;
+        transition: transform .75s ease;
+        cursor: pointer;
+        @extend %has-shadow;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (min-width: $breakpoint-lg) {
+          max-width: 30%;
+          font-size: 1em;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
-
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-  }
-}
-
-.footer {
-  background-color: #c7cbe6;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    h3 {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    .logo {
-      max-width: 100%;
     }
   }
 }

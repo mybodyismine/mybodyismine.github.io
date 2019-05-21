@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import profpic from 'assets/images/tisa.jpg';
+import profpic from 'assets/images/abellia.jpg';
 import './index.scss';
 
 
@@ -54,10 +54,10 @@ export default class ContactBubbleChat extends Component {
           </div>
           <div className="profile">
             <div className="name">
-              Titisari Wardani
+              Gaby Abellia
             </div>
             <div className="status">
-              Online
+              Konselor - Online
             </div>
           </div>
         </div>
